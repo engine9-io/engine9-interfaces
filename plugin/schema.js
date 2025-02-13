@@ -3,7 +3,8 @@ module.exports = {
     {
       name: 'plugin',
       columns: {
-        id: 'id_uuid',
+        id: 'id',
+        plugin_id: 'uuid',
         path: 'string',
         name: 'string',
         nickname: 'string',
